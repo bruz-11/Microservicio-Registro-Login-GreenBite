@@ -48,9 +48,7 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
     </plugins>
-  </build>
-
-  <plugin>
+      <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.11.0</version>
@@ -64,4 +62,5 @@
         </annotationProcessorPaths>
     </configuration>
   </plugin>
+  </build>
 </project>
